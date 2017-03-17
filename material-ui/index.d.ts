@@ -1477,7 +1477,7 @@ declare namespace __MaterialUI {
             elementStyle?: React.CSSProperties;
             iconStyle?: React.CSSProperties;
             inputStyle?: React.CSSProperties;
-            label?: string;
+            label?: React.ReactNode;
             labelPosition?: "left" | "right";
             labelStyle?: React.CSSProperties;
             onToggle?: (e: React.MouseEvent<{}>, isInputChecked: boolean) => void;
